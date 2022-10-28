@@ -1,0 +1,385 @@
+/*-------------------------------------
+Hoja de estilo para  las 3 paginas HTML
+Autor: Carlos Eduardo Hernandez Herrera
+N. control: 19051142
+Horario:6-7 hrs.
+-------------------------------------*/
+
+/*---------------------------------------------
+	Bloque dedicado a fondos para hoja1
+---------------------------------------------*/
+body.tf
+{
+	/*----cargamos el fondo----*/
+	background-image: url("../MEDIA/IMAGES/cybertron.jpg");
+	/*----fondo estatico----*/
+	background-attachment: none;
+	/*----cambiar el tamaño del fondo----*/
+	background-size: 100%;
+	/*----Ancho del contenido de la pagina----*/
+	width:80%;
+	/*----margen alrededor del contenido----*/
+	margin: auto;
+}
+
+/*-----------------------------------
+	Bloque para el titulo hoja1
+-----------------------------------*/
+p.titulo-inicial
+{
+	/*----Tipo de letra----*/
+	font-family: Impact;
+	/*----Tamaño de letra----*/
+	font-size: 500%;
+	/*----color de la letra----*/
+	color: black;
+	/*----Titulo centrado----*/
+	text-align: center;
+	/*----Ancho del contenido de la pagina----*/
+	width:50%;
+	/*----margen alrededor del contenido----*/
+	margin: auto;
+}
+
+/*-----------------------------------
+	Bloque para los fonts hoja1
+-----------------------------------*/
+font.historia1
+{
+	/*---- todo justificado ----*/
+	text-align: justify;
+	/*---- tipo de letra ----*/
+	font-family: Arial;
+	/*---- tamaño ----*/
+	font-size: 130%;
+	/*---- color ----*/
+	color: cyan;
+}
+
+/*-----------------------------------
+	imagenes dentro de hoja1
+-----------------------------------*/
+img.a-d
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/AutobotsVsDecepticons.jpg");
+	/*---- tamño ----*/
+	max-width: 50%;
+	max-height: 50%;
+}
+
+/*-----------------------------------
+	link de hoja1 a hoja 2
+-----------------------------------*/
+a.ir1
+{
+	/*---- color del fondo ----*/
+	background-color: gray;
+	/*---- color de letra ----*/
+	color: black;
+	/*---- alinecion del texto ----*/
+	text-align: center;
+	/*---- tamaño del fondo ----*/
+	padding: 25px 25px;
+	
+}
+
+/*---------------------------------------------
+	Bloque dedicado a fondos para hoja2
+---------------------------------------------*/
+body.tf2
+{
+	/*----cargamos el fondo----*/
+	background-image: url("../MEDIA/IMAGES/Autobots.jpg");
+	/*----fondo estatico----*/
+	background-attachment: none;
+	/*----cambiar el tamaño del fondo----*/
+	background-size: 100%;
+	/*----Ancho del contenido de la pagina----*/
+	width:80%;
+	/*----margen alrededor del contenido----*/
+	margin: auto;
+}
+
+/*-----------------------------------
+	Bloque para el titulo hoja2
+-----------------------------------*/
+p.titulo-inicial2
+{
+	/*----Tipo de letra----*/
+	font-family: Impact;
+	/*----Tamaño de letra----*/
+	font-size: 500%;
+	/*----color de la letra----*/
+	color: blue;
+	/*----Titulo centrado----*/
+	text-align: left;
+	/*----Ancho del contenido de la pagina----*/
+	width:50%;
+}
+
+/*-----------------------------------
+	Bloque para los fonts hoja2
+-----------------------------------*/
+font.historia2
+{
+	/*---- todo justificado ----*/
+	text-align: justify;
+	/*---- tipo de letra ----*/
+	font-family: Arial;
+	/*---- tamaño ----*/
+	font-size: 165%;
+	/*---- color ----*/
+	color: black;
+}
+
+/*-----------------------------------
+	Bloque para transparencia hoja2
+-----------------------------------*/
+div.transp
+{
+	width:800px;
+	height: 350px;
+	background-color: white;
+	filter: alpha(opacity=20);
+	opacity: 0.7;
+	padding: 10px;
+	border-radius: 20;
+}
+
+/*-----------------------------------
+	imagen 1 dentro de hoja2
+-----------------------------------*/
+img.at
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Alphatrion.jpg");
+	/*---- tamño ----*/
+	max-width: 20%;
+	max-height: 20%;
+}
+
+/*-----------------------------------
+	imagen 2 dentro de hoja2
+-----------------------------------*/
+img.orp
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Orionpax.jpg");
+	/*---- tamño ----*/
+	max-width: 60%;
+	max-height: 60%;
+}
+
+/*-----------------------------------
+	imagen 3 dentro de hoja2
+-----------------------------------*/
+img.p
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Prime.jpg");
+	/*---- tamño ----*/
+	max-width: 20%;
+	max-height: 20%;
+}
+
+/*-----------------------------------
+	link de hoja2 a hoja 1
+-----------------------------------*/
+a.ir2
+{
+	/*---- color del fondo ----*/
+	background-color: gray;
+	/*---- color de letra ----*/
+	color: black;
+	/*---- alinecion del texto ----*/
+	text-align: center;
+	/*---- tamaño del fondo ----*/
+	padding: 25px 25px;
+	
+}
+
+/*-----------------------------------
+	link de hoja2 a hoja 1
+-----------------------------------*/
+a.ir3
+{
+	/*---- color del fondo ----*/
+	background-color: gray;
+	/*---- color de letra ----*/
+	color: black;
+	/*---- alinecion del texto ----*/
+	text-align: center;
+	/*---- tamaño del fondo ----*/
+	padding: 25px 25px;
+	
+}
+
+/*---------------------------------------------
+	Bloque dedicado a fondos para hoja3
+---------------------------------------------*/
+body.tf3
+{
+	/*----cargamos el fondo----*/
+	background-image: url("../MEDIA/IMAGES/Decepticons - copia.jpg");
+	/*----fondo estatico----*/
+	background-attachment: none;
+	/*----cambiar el tamaño del fondo----*/
+	background-size: 100%;
+	/*----Ancho del contenido de la pagina----*/
+	width:80%;
+	/*----margen alrededor del contenido----*/
+	margin: auto;
+}
+
+/*-----------------------------------
+	Bloque para el titulo hoja3
+-----------------------------------*/
+p.titulo-inicial3
+{
+	/*----Tipo de letra----*/
+	font-family: Impact;
+	/*----Tamaño de letra----*/
+	font-size: 500%;
+	/*----Titulo centrado----*/
+	text-align: right;
+	/*----color de la letra----*/
+	color: purple;
+	/*----Ancho del contenido de la pagina----*/
+	width:100%;
+}
+
+/*-------------------------------------
+	1-Bloque para transparencia hoja3
+-------------------------------------*/
+div.transp2
+{
+	width:800px;
+	height: 350px;
+	background-color: white;
+	filter: alpha(opacity=20);
+	opacity: 0.7;
+	padding: 10px;
+	border-radius: 20;
+}
+
+/*-------------------------------------
+	2-Bloque para transparencia hoja3
+-------------------------------------*/
+div.transp3
+{
+	width:1000px;
+	height: 360px;
+	background-color: white;
+	filter: alpha(opacity=20);
+	opacity: 0.7;
+	padding: 10px;
+	border-radius: 20;
+}
+
+/*-----------------------------------
+	Bloque para los fonts1 hoja3
+-----------------------------------*/
+font.historia3
+{
+	/*---- todo justificado ----*/
+	text-align: justify;
+	/*---- tipo de letra ----*/
+	font-family: Arial;
+	/*---- tamaño ----*/
+	font-size: 165%;
+	/*---- color ----*/
+	color: black;
+}
+
+/*-----------------------------------
+	Bloque para los fonts2 hoja3
+-----------------------------------*/
+font.historia4
+{
+	/*---- todo justificado ----*/
+	text-align: justify;
+	/*---- tipo de letra ----*/
+	font-family: Arial;
+	/*---- tamaño ----*/
+	font-size: 165%;
+	/*---- color ----*/
+	color: black;
+}
+
+/*-----------------------------------
+	imagen 1 dentro de hoja3
+-----------------------------------*/
+img.me
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Megatron.jpg");
+	/*---- tamño ----*/
+	max-width: 30%;
+	max-height: 30%;
+}
+/*-----------------------------------
+	imagen 2 dentro de hoja3
+-----------------------------------*/
+img.sh
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Shockwave.jpg");
+	/*---- tamño ----*/
+	max-width: 37%;
+	max-height: 30%;
+}
+/*-----------------------------------
+	imagen 3 dentro de hoja3
+-----------------------------------*/
+img.so
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Soundwave.jpg");
+	/*---- tamño ----*/
+	max-width: 30%;
+	max-height: 30%;
+}
+/*-----------------------------------
+	imagen 4 dentro de hoja3
+-----------------------------------*/
+img.st
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/Starscream.jpg");
+	/*---- tamño ----*/
+	max-width: 32%;
+	max-height: 30%;
+}
+
+/*-----------------------------------
+	link de hoja3 a hoja 2
+-----------------------------------*/
+a.ir4
+{
+	/*---- color del fondo ----*/
+	background-color: gray;
+	/*---- color de letra ----*/
+	color: black;
+	/*---- alinecion del texto ----*/
+	text-align: center;
+	/*---- tamaño del fondo ----*/
+	padding: 25px 25px;
+	
+}
+
+/*-----------------------------------
+	link de hoja3 a hoja 1
+-----------------------------------*/
+a.ir5
+{
+	/*---- color del fondo ----*/
+	background-color: gray;
+	/*---- color de letra ----*/
+	color: black;
+	/*---- alinecion del texto ----*/
+	text-align: center;
+	/*---- tamaño del fondo ----*/
+	padding: 25px 25px;
+	
+}
